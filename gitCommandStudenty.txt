@@ -1,7 +1,10 @@
-1. �����汾��
-	��ʼ��һ��Git�ֿ⣬ʹ��git init���
+1. 创建版本库
+	初始化一个Git仓库，使用git init命令。
 	
-	�����ļ���Git�ֿ⣬��������
-		��һ����ʹ������git add <file>��ע�⣬�ɷ������ʹ�ã����Ӷ���ļ���
-		�ڶ�����ʹ������git commit -m '�ύ˵��'����ɡ�
+	添加文件到Git仓库，分两步：
+		第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
+		第二步，使用命令git commit -m '提交说明'，完成。
+2.  查看当前的状态，是否有文件是否发生了改变。 命令 ：git status
+	查看发生改变的内容。命令 ：git diff 文件名 
 	
+	阿达
