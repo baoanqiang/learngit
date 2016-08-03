@@ -8,7 +8,7 @@ SVN和git的区别
 	
 	添加文件到Git仓库，分两步：
 		第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
-		第二步，使用命令git commit -m '提交说明'，完成。
+		第二步，使用命令git commit -m '提交说明'，完成。（只提交暂缓区的数据）
 		
 2.  查看当前的状态，是否有文件是否发生了改变。 命令 ：git status
 	查看发生改变的内容。命令 ：git diff 文件名 
@@ -32,5 +32,5 @@ SVN和git的区别
 	工作去就是我们调用git init命令初始化出来的文件夹。
 	暂存区就是git add file1 file2 就是把文件file1 和file2 添加到暂缓区
 	可以用git status查看状态转移
-	
+	Git是如何跟踪修改(git管理的修改而非文件)的，每次修改，如果不add到暂存区，那就不会加入到commit中。
 	
